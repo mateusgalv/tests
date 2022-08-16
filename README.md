@@ -22,3 +22,4 @@ Contém todas as atividades desenvolvidas por Mateus Galvão durante sua traget�
 4. JavaScript - Lógica de Programação e Algoritmos  
 5. JavaScript - Objetos e funções  
 ### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
