@@ -3,10 +3,16 @@ Contém todas as atividades desenvolvidas por Mateus Galvão durante sua traget�
 
 ## Fundamentos do Desenvolvimento Web
 ### Bloco 1: Unix & Bash
-:heavy_check_mark: Fundamentos do desenvolvimento web
-2. Introdução - Unix & Shell
-3. Unix & Bash
+:heavy_check_mark: 1. Fundamentos do desenvolvimento web
+:heavy_check_mark: 2. Introdução - Unix & Shell
+:heavy_check_mark: 3. Unix & Bash
 ### Bloco 2: Git, GitHub e Internet
-1. Git & GitHub
-2. Internet
+:heavy_check_mark: 1. Git & GitHub
+:heavy_check_mark: 2. Internet
 ### Bloco 3: Introdução à HTML e CSS
+:heavy_check_mark: 1. Introdução
+:heavy_check_mark: 2. HTML & CSS - Estruturas de páginas
+:heavy_check_mark: 3. HTML & CSS - Primeiros passos em CSS
+4. HTML & CSS - Seletores e posicionamento
+5. HTML Semântico
+6. Projeto - Lessons Learned
