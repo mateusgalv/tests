@@ -1,4 +1,9 @@
-function exercicio(numeroDoExercicio) {
+// Selecione o exercício que deseja executar utilizando
+// o comando exercício(numero_do_exercicio) abaixo
+
+exercicio()
+
+function exercicio(numeroDoExercicio) { // seletor
     switch (numeroDoExercicio) {
         case 1:
             operacoesBasicas()
@@ -33,6 +38,8 @@ function exercicio(numeroDoExercicio) {
         case 11:
             salarioLiquido()
             break
+        default:
+            console.log('Exercício inexistente')
     }
 }
 
@@ -218,5 +225,3 @@ function salarioLiquido() {             // exercicio 11
     salarioLiq = salarioBase - impostoRenda
     console.log(`Salário Líquido = R$ ${salarioLiq.toFixed(2)}`)
 }
-
-exercicio(11)           // exercicio(número do exercício a ser executado
