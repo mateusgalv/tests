@@ -29,3 +29,4 @@ Contém todas as atividades desenvolvidas por Mateus Galvão durante sua traget�
 <!-- :heavy_check_mark: --> 3. JavaScript - Eventos  
 <!-- :heavy_check_mark: --> 4. JavaScript - Web Storage    
 <!-- :heavy_check_mark: --> 5. Projetos  
+### Bloco 6
