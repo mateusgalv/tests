@@ -30,10 +30,10 @@ function exercicio(numeroDoExercicio) { // seletor
     case 8:
       criarArray()
       break
-      case 9:
-        let array = criarArray()
-        dividirPorDois(array)
-        break
+    case 9:
+      let array = criarArray()
+      dividirPorDois(array)
+      break
     default:
       console.log('Exercício inexistente')
   }
@@ -109,7 +109,7 @@ function menorValor(numbers) {          // exercicio 7
   let menor = Infinity
 
   for (let number of numbers) {
-    if(number < menor) {
+    if (number < menor) {
       menor = number
     }
   }
@@ -118,15 +118,15 @@ function menorValor(numbers) {          // exercicio 7
 function criarArray() {                 // exercicio 8
   let array = new Array
 
-  for(let i = 1; i<25; i++) {
-    array[i-1] = (Math.random() * 100).toFixed(0) 
+  for (let i = 1; i < 25; i++) {
+    array[i - 1] = (Math.random() * 100).toFixed(0)
   }
   console.log(array)
-  
+
   return array
 }
 function dividirPorDois(array) {        // exercicio 9
-  for(let number of array) {
-    console.log(number/2)
+  for (let number of array) {
+    console.log(number / 2)
   }
 }
