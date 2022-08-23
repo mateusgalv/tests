@@ -10,10 +10,10 @@ function factorial() {
 function reverseString() {
     let word = 'banana',
         wordArray = word.split(''),
-        wordReversed = new Array(),
-        result = new String
+        wordReversed = [],
+        result = ''
 
-    for (let i = 0; i < wordArray.length; i++) {
+    for (let i = 0; i < wordArray.length; i += 1) {
         wordReversed[wordArray.length - (i + 1)] = wordArray[i]
     }
 
@@ -40,9 +40,9 @@ function maiorMenor() {
 function biggestPrime() {
     let top = 20        //valor maximo -> random
 
-    primos = new Array  //array dos numeros primos
-    num = new Array     //array com os números entre 0 e TOP
-    isPrimo = new Boolean
+    primos = []  //array dos numeros primos
+    num = []     //array com os números entre 0 e TOP
+    isPrimo = Boolean
     primos.push(2)
 
     for (let i = 3; i <= top; i++) {    // 2 = first prime
