@@ -56,7 +56,7 @@ let idadeCarolzita = Math.floor(Math.random() * 100),
     idadeMurilo = Math.floor(Math.random() * 100),
     idadeBaeta = Math.floor(Math.random() * 100);
 
-if(idadeCarolzita < idadeMurilo && idadeCarolzita < idadeBaeta) {
+if (idadeCarolzita < idadeMurilo && idadeCarolzita < idadeBaeta) {
     console.log('Carolzita é a mais nova');
 } else if (idadeMurilo < idadeCarolzita && idadeMurilo < idadeBaeta) {
     console.log('Murilo é o mais novo');
