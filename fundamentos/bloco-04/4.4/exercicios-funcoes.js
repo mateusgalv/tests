@@ -1,7 +1,9 @@
-// 1 - Crie uma função que receba uma string e retorne true se for um palíndromo, ou false, se não for.
+// 1 - Criar uma função que recebe uma string e retorne true se for um palíndromo, ou false, se não for.
 
 function isPalindromo(string) {
-    // Palíndromo é uma palavra, frase ou número que permanece igual quando lida de trás para frente.
+    /* Palíndromo é uma palavra, frase ou número que permanece igual quando lida de trás para frente.
+     * Source: https://www.soportugues.com.br/secoes/palindromos/ 
+     */
     if (string === string.split('').reverse().join('')) {
         return true
     } else {
@@ -10,7 +12,7 @@ function isPalindromo(string) {
 }
 console.log(isPalindromo('arara'))
 
-// 2 - Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+// 2 - Criar uma função que recebe um array de inteiros e retorna o índice do maior valor.
 
 function maiorValorValor(arrayInt) {        // Usando For/In
     let maiorValor = 0,
@@ -26,7 +28,7 @@ function maiorValorValor(arrayInt) {        // Usando For/In
 }
 console.log(maiorValorValor([2, 3, 6, 7, 10, 1]))
 
-// 3 - Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+// 3 - Criar uma função que recebe um array de inteiros e retorna o índice do menor valor.
 
 function indiceDoMenorValor(arrayInt) {     // Usando For/Of
     let menorValor = Infinity,
@@ -44,7 +46,7 @@ function indiceDoMenorValor(arrayInt) {     // Usando For/Of
 }
 console.log(indiceDoMenorValor([2, 4, 6, 7, 10, 0, -3]))
 
-// 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+// 4 - Criar uma função que recebe um array de strings e retorna o maior deles.
 
 function maiorNome(arrayNomes) {
     let nomezao = 0,
@@ -60,7 +62,7 @@ function maiorNome(arrayNomes) {
 }
 console.log(maiorNome(['josé', 'lucas', 'nadia', 'fernanda', 'cairo', 'joana']))
 
-// 🚀 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+// * 5 - Criar uma função que recebe um array de inteiros e retorna o inteiro que mais se repete.
 
 function valorRepetido(arrayInt) {
     let counter,
@@ -83,7 +85,7 @@ function valorRepetido(arrayInt) {
 }
 console.log(valorRepetido([2, 3, 2, 5, 8, 2, 3]))
 
-// 6 - Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
+// 6 - Criar uma função que recebe um número natural N e retorna o somatório (1 a N).
 
 function naturalNumberSum(n) {
     let naturalNumbers = [],
@@ -100,7 +102,7 @@ function naturalNumberSum(n) {
 }
 console.log(naturalNumberSum(15))
 
-// 7 - Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
+// 7 - Criar uma função que recebe duas strings e verificar se seus finais coincidem.
 
 function verifyEndingOfString(word, ending) {
     return word.includes(ending, (word.length - ending.length))

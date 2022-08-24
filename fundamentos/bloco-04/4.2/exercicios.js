@@ -39,13 +39,16 @@ function exercicio(numeroDoExercicio) { // seletor
   }
 }
 
-function percorrerArray(numbers) {      // exercicio 1
+// exercício 1: percorrer e imprimir os valores de um array 
+function percorrerArray(numbers) {
 
   for (let number of numbers) {
     console.log(number)
   }
 }
-function somarValores(numbers) {        // exercicio 2
+
+// exercício 2: somar e imprimir valores de um arrazy
+function somarValores(numbers) {
   let num = new Number
 
   for (let number of numbers) {
@@ -53,9 +56,11 @@ function somarValores(numbers) {        // exercicio 2
   }
   console.log(num)
 }
-function mediaAritmetica(numbers) {     // exercicio 3
-  let num = new Number,
-    media = new Number
+
+// exercício 3: calcular e imprimir a média aritmética dos valores de um array
+function mediaAritmetica(numbers) {
+  let num = 0,
+    media
 
   for (number of numbers) {
     num += number
@@ -64,9 +69,11 @@ function mediaAritmetica(numbers) {     // exercicio 3
   media = num / numbers.length
   console.log(media)
 }
-function imprimirValor(numbers) {       // exercicio 4
-  let num = new Number,
-    media = new Number
+
+// exercício 4: imprimir mensagem a partir de uma condicional
+function imprimirValor(numbers) {
+  let num = 0,
+    media = o
 
   for (number of numbers) {
     num += number
@@ -80,8 +87,10 @@ function imprimirValor(numbers) {       // exercicio 4
     console.log('valor menos ou igual a 20')
   }
 }
-function maiorValor(numbers) {          // exercicio 5 
-  let maiorNumero = new Number
+
+// exercício 5: imprimir maior valor de um array
+function maiorValor(numbers) {
+  let maiorNumero = 0
 
   for (let number of numbers) {
     if (number > maiorNumero) {
@@ -91,8 +100,10 @@ function maiorValor(numbers) {          // exercicio 5
 
   console.log(maiorNumero)
 }
-function quantosImpares(numbers) {      // exercicio 6 
-  let impar = new Number
+
+// exercício 6: contar valores impares de um array
+function quantosImpares(numbers) {
+  let impar = 0
 
   for (let number of numbers) {
     if (number % 2 != 0) {
@@ -105,7 +116,9 @@ function quantosImpares(numbers) {      // exercicio 6
     console.log('nenhum valor ímpar encontrado')
   }
 }
-function menorValor(numbers) {          // exercicio 7
+
+// exercício 7: imprimir menor valor de um array
+function menorValor(numbers) {
   let menor = Infinity
 
   for (let number of numbers) {
@@ -115,8 +128,10 @@ function menorValor(numbers) {          // exercicio 7
   }
   console.log(menor)
 }
-function criarArray() {                 // exercicio 8
-  let array = new Array
+
+// exercício 8: criar um array
+function criarArray() {
+  let array = []
 
   for (let i = 1; i < 25; i++) {
     array[i - 1] = (Math.random() * 100).toFixed(0)
@@ -125,7 +140,9 @@ function criarArray() {                 // exercicio 8
 
   return array
 }
-function dividirPorDois(array) {        // exercicio 9
+
+// exercício 9: dividir os valores dos elementos (exercício 8) por dois
+function dividirPorDois(array) {
   for (let number of array) {
     console.log(number / 2)
   }

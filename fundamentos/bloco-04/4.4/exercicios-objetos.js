@@ -4,28 +4,28 @@ let info = {
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
 }
 
-// 1 - Imprima no console uma mensagem de boas-vindas para a personagem acima, incluindo seu nome.
+// 1 - Imprimir mensagem de boas-vindas para a personagem acima, incluindo seu nome.
 
 console.log('Bem-vinda, ' + info.personagem)
 
-// 🚀 2 - Insira no objeto uma nova propriedade com o nome de chave 'recorrente' e o valor 'Sim' e, em seguida, imprima o objeto no console.
+// * 2 - Inserir uma nova propriedade com o nome de chave 'recorrente' e o valor 'Sim' e, em seguida, imprimir o objeto.
 
 info.recorrente = 'Sim'
 console.log(info)
 
-// 3 - Faça um for/in que mostre todas as chaves do objeto.
+// 3 - Fazer um for/in que mostre todas as chaves do objeto.
 
 for (chaves in info) {
     console.log(chaves)
 }
 
-// 4 - Faça um novo for/in, mas agora mostre todos os valores das chaves do objeto.
+// 4 - Fazer um for/in que mostre todos os valores das chaves do objeto.
 
 for (chaves in info) {
     console.log(info[chaves])
 }
 
-// 5 - Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: 'Tio Patinhas', 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 'O último MacPatinhas', 'Sim'. Então, imprima os valores de cada objeto juntos de acordo com cada uma das chaves.
+// 5 - Definir um segundo objeto com a mesma estrutura e os seguintes valores: 'Tio Patinhas', 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 'O último MacPatinhas', 'Sim'. E Imprimir os valores de cada objeto juntos de acordo com cada uma das chaves.
 
 let info2 = {
     personagem: 'Tio Patinhas',
@@ -51,11 +51,11 @@ let leitor = {
     }],
 };
 
-// 🚀 6 - Acesse as chaves nome, sobrenome e titulo, que está dentro da chave livrosFavoritos, e faça um console.log no seguinte formato: "O livro favorito de Julia Pessoa se chama 'O Pior Dia de Todos'".
+// * 6 - Acessar as chaves: nome, sobrenome e titulo e imprimir no seguinte formato: "O livro favorito de 'nome' 'sobrenome' se chama 'livro'".
 
 console.log(`O livro favorito de ${leitor.nome} ${leitor.sobrenome} se chama '${leitor.livrosFavoritos[0].titulo}'`)
 
-// 🚀 7 - Adicione um novo livro favorito na chave livrosFavoritos, que é um array.
+// * 7 - Adicionar um novo livro favorito na chave livrosFavoritos.
 
 leitor.livrosFavoritos[1] = { 
     titulo: 'Harry Potter e o Prisioneiro de Azkaban',
@@ -63,6 +63,6 @@ leitor.livrosFavoritos[1] = {
     editora: 'Rocco'
 }
 
-// 🚀 8 - Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato: "Julia tem 2 livros favoritos".
+// * 8 - Acessar e imprimir as chaves: nome e livrosFavoritos no seguinte formato: "'nome' tem 'qnt. livros favoritos' livros favoritos".
 
 console.log(`${leitor.nome} tem ${leitor.livrosFavoritos.length} livros favoritos: ${leitor.livrosFavoritos[0].titulo} e ${leitor.livrosFavoritos[1].titulo}`)
