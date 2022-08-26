@@ -45,6 +45,7 @@ function square(n) {
         console.log(createLine(n))
     }
 }
+console.log(square(5))
 
 // Fazer triangulo retângulo
 function rightTriangle(n) {
@@ -53,6 +54,7 @@ function rightTriangle(n) {
         console.log(createLine(i))
     }
 }
+console.log(rightTriangle(5))
 
 // Fazer triângulo retângulo virado para o outro lado
 function rightTriangleRightAligned(n) {
@@ -61,6 +63,7 @@ function rightTriangleRightAligned(n) {
         console.log(createLineRightAligned(n - i) + createLine(i))
     }
 }
+console.log(rightTriangleRightAligned(5))
 
 // Pirâmide de base n
 function piramide(n) {
