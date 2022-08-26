@@ -27,11 +27,16 @@ function createCenteredLine(n) {
     let lineArray = []
 
     for (let i = 1; i <= n; i += 1) {
-        // ENCONTRAR O PADRÃO!!
+        if (i < Math.ceil(n / 2)) {
+            lineArray.push(' ')
+        } else if (i === Math.ceil(n / 2)) {
+            lineArray.push('*')
+        } else {
+            lineArray.push(' ')
+        }
     }
     return lineArray.join('')
 }
-console.log(createCenteredLine(5))
 
 // Fazer quadrado
 function square(n) {
@@ -59,5 +64,8 @@ function rightTriangleRightAligned(n) {
 
 // Pirâmide de base n
 function piramide(n) {
-
+    for (let i = 0; i < n; i += 1) {
+        console.log(createCenteredLine(n))
+    }
 }
+piramide(5)
