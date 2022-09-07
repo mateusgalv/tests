@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>This is a form</h1>
+	<main>
+		<form>
+			<div class="form-line">
+				<label for="name-input"> Name:</label>
+				<input type="text" name="name" id="name-input" required>
+			</div>
+			<div class="form-line">
+				<label for="email-input"> E-mail:</label>
+				<input type="email" name="email" id="email-input" required>
+			</div>
+			<div class="form-line">
+				<input type="radio" name="option" id="radio-1" value="option 1">
+				<label for="radio-1"> Option 1</label>
+				<input type="radio" name="option" id="radio-2" value="option 2">
+				<label for="radio-2"> Option 2</label>
+				<input type="radio" name="option" id="radio-3" value="option 3">
+				<label for="radio-3"> Option 3</label>
+				<input type="radio" name="option" id="radio-4" value="option 4">
+				<label for="radio-4"> Option 4</label>
+			</div>
+			<div class="form-line">
+				<label for="abstract-input"> Abstract:</label>
+				<textarea name="abstract" id="abstract-input"></textarea>
+			</div>
+			<div class="form-line">
+				<label for="birth-input" required> Birth:</label>
+				<input type="date" name="birth" id="birth-input"></input>
+			</div>
+			<div class="form-line">
+				<input type="checkbox" name="checkbox" id="checkbox-1"></input>
+				<label for="checkbox-1"> Agree 1</label><br>
+				<input type="checkbox" name="checkbox" id="checkbox-2"></input>
+				<label for="checkbox-2"> Agree 2</label>
+			</div>
+			<button type="submit">Send</button>
+		</form>
+	</main>
+</body>
+
+</html>
