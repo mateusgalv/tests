@@ -33,10 +33,10 @@ function getPokemonDetails(selectedPokemon, callback) {
 }
 
 const handlePokemonSearch = (error, message) => {
-	if (error === null) console.log(message);
-	else console.log(error);
+	if (error) console.log(error);
+	else console.log(message);
 };
 
 getPokemonDetails('Charmander', handlePokemonSearch);
 
-module.exports = getPokemonDetails;
+module.exports = { getPokemonDetails };

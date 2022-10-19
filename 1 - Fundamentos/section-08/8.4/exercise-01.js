@@ -6,4 +6,4 @@ const arrays = [
 ];
 
 const mergedArray = arrays.reduce((acc, array) => acc.concat(array))
-// console.log(mergedArray)
+console.log(mergedArray)
