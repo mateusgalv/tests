@@ -1,0 +1,21 @@
+{
+  "name": "cacao-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "mocha ./tests/**/*test.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.21"
+  }
+}

@@ -1,0 +1,26 @@
+learning docker commands
+
+docker pull debian:stable-slim
+	- Download da imagem debian versão stable-slim
+	
+docker run -it debian:stable-slim
+	- Execução do container de forma interativa com criação de terminal
+cat /etc/*-release
+	- Execução de comandos no container debian
+cat /etc/debian_version
+	- Execução de comandos no container debian
+exit
+	- Encerra o terminal
+	
+docker container ps -a
+	- Imprime todos os containers (ativos e inativos)
+
+docker rm debian:stable-slim
+	- Remove a imagem da máquina local
+
+docker container ps -a
+	- Imprime todos os containers (ativos e inativos)
+	
+docker run -it andrius/ascii-patrol
+	- Faz pull da imagem e executa o container (joguinho)
+	
