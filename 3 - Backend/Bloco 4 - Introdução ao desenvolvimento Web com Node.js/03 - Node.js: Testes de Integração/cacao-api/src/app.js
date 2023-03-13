@@ -17,6 +17,7 @@ const readBrandFile = async () => {
 	return JSON.parse(brands);
 };
 
+
 app.get('/chocolates', async (req, res) => {
 	try {
 		const chocolates = await readChocolateFile();
